@@ -1,0 +1,150 @@
+
+.partners__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $violet;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.partners__box-hillel {
+    background-image: url('../img/hillel.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #1C4280;
+    width: auto;
+    height: 120px;
+}
+
+.partners__box-wanna {
+    background-image: url('../img/wannabiz.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #143646;
+    width: auto;
+    height: 120px;
+}
+ 
+.partners__box-tapgerine {
+    background-image: url('../img/tapgerine.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #F48B30;
+    width: auto;
+    height: 120px;
+}
+
+.partners__box-dlook {
+    background-image: url('../img/3dlook.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #9E4DC3;
+    width: auto;
+    height: 120px;
+}
+.partners__box-orangear {
+    background-image: url('../img/orangear.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #F48B30;
+    width: auto;
+    height: 120px;
+}
+.partners__box-adtelligent {
+    background-image: url('../img/adtelligent.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #E2E2E4;
+    width: auto;
+    height: 120px;
+}
+.partners__box-clickky {
+    background-image: url('../img/clickky.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #C71C36;
+    width: auto;
+    height: 120px;
+    display: none;
+}
+.partners__box-eco {
+    background-image: url('../img/eco-leasing.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #DCF3F9;
+    width: auto;
+    height: 120px;
+    display: none;
+}
+.partners__box-intra {
+    background-image: url('../img/ingratek.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #EAEAEA;
+    width: auto;
+    height: 120px;
+    display: none;
+}
+    
+.partners__box-city {
+    background-image: url('../img/city-par.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #282240;
+    width: auto;
+    height: 120px;
+    display: none;
+}
+
+.partners__box-art {
+    background-image: url('../img/artprint.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #1D4568;
+    width: auto;
+    height: 120px;
+    display: none;
+}
+
+.partners__box-ultimatecard{
+    background-image: url('../img/ultimatecard.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    width: auto;
+    height: 120px;
+    display: none;
+}
+
+
+@media screen and ( min-width: 768px) { 
+    .partners__logo {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .partners__box-clickky,
+    .partners__box-ultimatecard,
+    .partners__box-art,
+    .partners__box-city,
+    .partners__box-intra,
+    .partners__box-eco,
+    .partners__box-clickky {
+        display: block;
+    }
+}
+
+@media screen and ( min-width: 992px) {
+    .partners__logo {
+        grid-template-columns: 25% 25% 25% 25%;
+        }
+
+}
+
+@media screen and ( min-width: 1201px) {
+
+
+}

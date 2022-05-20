@@ -1,0 +1,122 @@
+.publications {
+    background-color: $bg;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.publications__btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $regular;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.publications__btn::after {
+    content: "";
+    width: 4px;
+    height: 9px;
+    background-image: url('../img/arrow-blue.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.publications__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.publications__box {
+    border-radius: 8px;
+}
+
+.publication__card {
+    margin-bottom: 30px;
+    background: #FFFFFF;
+}
+
+.publications__img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;  
+    }
+
+.publications__article {
+        padding: 30px 30px;
+    }
+
+.publications__headline {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: $regular;
+        padding-bottom: 15px;
+    }
+
+.publications__date {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 15px;
+    }
+
+.publications__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        padding-top: 15px;
+        border-top: solid 4px $separator;
+    }      
+@media screen and ( min-width: 768px) {
+    
+    .publications__title {
+        font-size: 38px;
+        padding-top: 10px;
+    }
+
+    .publications__box {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+    }
+
+    .publication__card--last {
+        grid-column: 1/-1;
+    }
+}
+
+@media screen and ( min-width: 992px) {
+    .publications__box {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+    }
+
+    .publication__card--last {
+        grid-column: 3/-1;
+    }
+    
+}
+
+    @media screen and ( min-width: 1201px) {
+
+}

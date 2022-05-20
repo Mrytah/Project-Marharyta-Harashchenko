@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Montserrat', Tahoma, sans-serif;
+    font-style: normal;
+    min-width: 375px;
+
+}
+.container {
+    max-width: 1350px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-2 {
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+.block {
+    padding: 30px;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.vissualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@media screen and ( min-width: 768px) {
+    .block {
+        padding: 0 15px;
+    }
+}
+

@@ -1,0 +1,135 @@
+.achievements {
+    background-color: $bg;
+    padding: 30px 0;
+}
+.achievements__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievements__box-logo {
+    width: 100%;
+}
+
+.achievements__box-500 {
+    background-color: white;
+    border-radius: 12px;
+    width: 100%;
+    height: 90px;
+    background-image: url('../img/logo-500.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}   
+
+.achievements__box-red {
+    background-color: white;
+    border-radius: 12px;
+    width: 100%;
+    height: 90px;
+    background-image: url('../img/logo-red.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+} 
+
+.achievements__box-lider {
+    background-color: white;
+    border-radius: 12px;
+    width: 100%;
+    height: 90px;
+    background-image: url('../img/logo-lider.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.achievements__box-ulf {
+    background-color: white;
+    border-radius: 12px;
+    width: auto;
+    height: 90px;
+    background-image: url('../img/logo-ulf.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+}
+.achievements__insert--hiden  {
+    display: none;
+}
+
+.achievements__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $violet;
+    padding-bottom: 30px;
+}
+
+.achievements__dots-list {
+    list-style-type: none;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.achievements__dots {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    background: $active;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 0;
+    margin-left: 14px;
+}
+
+.achievements__dots--active {
+    margin-left: 0;
+    opacity: 100;
+}
+
+
+@media screen and ( min-width: 768px) {
+
+   .achievements__box-logo{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 40px;
+    }
+
+    .achievements__insert {
+       width: 100%;
+    }
+
+    .achievements__insert--hiden  {
+       display: block;
+    }
+
+  
+
+    .achievements__box--slide {
+        display: block;
+    }
+
+    .achievements__dots--hiden {
+        display: none;
+    }
+}
+@media screen and ( min-width: 992px) {
+
+}
+
+@media screen and ( min-width: 1201px) {
+    .achievements__dots:hover {
+        opacity: 0.6;
+        transition-duration: 0.3s;
+        transition-property: opacity;
+    }
+    
+}

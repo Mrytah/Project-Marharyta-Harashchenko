@@ -1,0 +1,152 @@
+.footer {
+    background-color: $bg;
+    }
+
+.footer__block {
+    padding: 32px 15px 30px 15px;
+    border-top: solid 2px $separator;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+.footer__location {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 21px;
+
+}
+
+.footer__adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: $text;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.footer__map {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $regular;
+    text-decoration: none;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.footer__facebook {
+    display: block;
+   }
+
+.footer__tel {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: $text;
+    text-decoration: none;
+    padding: 10px 0;
+   }
+
+.footer__mail {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: $regular;
+    text-decoration: none;
+}
+
+.footer__span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: $text;
+}
+
+@media screen and ( min-width: 768px) {
+    .footer__block {
+        justify-content: flex-start;
+    }
+
+    .footer__location {
+        flex-direction: row;
+    }
+
+    .footer__map::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50px;
+        background-color:$text;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align:middle;
+    }
+
+    .footer__adress {
+        padding: 0;
+    }
+
+    .footer__tel::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50px;
+        background-color:$text;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align:middle;
+    }
+
+    .footer__mail::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50px;
+        background-color:$text;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align:middle;
+    }
+
+    .footer__contacts {
+        flex-direction: row;
+    }
+}
+@media screen and ( min-width: 992px) {
+    .footer__block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+@media screen and ( min-width: 1201px) {
+    .footer__mail:hover {
+        color: $accent;
+        transition-duration: 0.3s;
+        transition-property: color;
+       }
+       
+    .footer__facebook:hover path {
+        fill: $accent;
+        transition-duration: 0.3s;
+        transition-property: fill;
+    }
+
+}
