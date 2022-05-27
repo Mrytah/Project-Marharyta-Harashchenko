@@ -244,6 +244,15 @@
 }
 @media screen and ( min-width: 1201px) {
 
+    
+    .header-2__top {
+        position: relative;
+    }
+    .header-2__lang,
+    .header-2__facebook {
+        z-index: 1;
+    }
+
     .header-2__lang-item:hover {
         background:$bg;
         color: $text;
@@ -258,12 +267,6 @@
         transition-property: border color;
        }
        
-    
-    .header-2__tel:hover {
-        color: $accent;
-        transition-duration: 0.3s;
-        transition-property: color;
-       }
     .header-2__facebook:hover path {
         fill: $accent;
         cursor: pointer;

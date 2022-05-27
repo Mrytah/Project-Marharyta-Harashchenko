@@ -299,9 +299,15 @@
 }
 @media screen and ( min-width: 1201px) {
 
+    .header__top {
+        position: relative;
+    }
+    .header__lang,
+    .header__facebook {
+        z-index: 1;
+    }
     .header__lang-item:hover {
         background:$bg;
-        color: $accent;
         transition-duration: 0.3s;
         transition-property: border color;
        }

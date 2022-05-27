@@ -92,8 +92,8 @@
 }
 .home__about-title {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 20px;
+    line-height: 24px;
     color: #FFFFFF;
     padding-bottom: 30px;
 
@@ -123,10 +123,17 @@
 
     .home__btn {
         font-size: 38px;
+        line-height: 46px;
 
     }
     .home__about {
         padding-top: 60px;
+    }
+    .home__about-title {
+      
+        font-size: 30px;
+        line-height: 37px;
+    
     }
 }
 @media screen and ( min-width: 992px) {
@@ -174,7 +181,7 @@
     }
 
     .home__scroll {
-        padding-top: 323px;
+        padding-top: 305px;
     }
 
     .home__scroll:hover path {
@@ -190,13 +197,16 @@
     }
 
     .home__menu {
-        width: 40%;
+        width: 45%;
         padding-left: 120px;
     }
 
     .home__about {
         width: 60%;
         padding-right: 120px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+
     }
 
 }
